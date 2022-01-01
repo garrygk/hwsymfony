@@ -1,0 +1,7 @@
+172.26.0.1 - - [30/Dec/2021:00:59:22 +0000] "GET / HTTP/1.1" 200 57098 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+172.26.0.1 - - [30/Dec/2021:00:59:22 +0000] "GET /_wdt/b44c37 HTTP/1.1" 200 17629 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+172.18.0.1 - - [30/Dec/2021:19:13:09 +0000] "GET / HTTP/1.1" 200 57098 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+172.18.0.1 - - [30/Dec/2021:19:13:10 +0000] "GET /_wdt/74742d HTTP/1.1" 200 17629 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+172.18.0.1 - - [30/Dec/2021:19:37:01 +0000] "GET / HTTP/1.1" 499 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+172.18.0.1 - - [31/Dec/2021:09:58:26 +0000] "GET / HTTP/1.1" 200 57098 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+172.18.0.1 - - [31/Dec/2021:09:58:27 +0000] "GET /_wdt/37a16f HTTP/1.1" 200 17629 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"

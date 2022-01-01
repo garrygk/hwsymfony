@@ -1,0 +1,24 @@
+version: '3'
+services:
+    php:
+      build:
+        context: .
+        target: app_php
+      image: garrykab/hwsymfony:1.0.5
+      ports:
+      - '9002:9000'
+      volumes:
+      - .:/var/www/symfony:cached
+      - ./logs/symfony:/var/www/symfony/var/logs:cached
+    nginx:
+      build:
+        context: .
+        target: app_nginx
+      ports:
+      - '8080:80'
+      links:
+        - php
+      volumes_from:
+      - php
+      volumes:
+      - ./logs/nginx/:/var/log/nginx:cached
